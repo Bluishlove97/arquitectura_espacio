@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0 auto;
+	font-family:'Montserrat', sans-serif;
+	}
+
+/*------------------------------------------ICONOS--------------------------------------------*/
+
+#iconos{
+	margin: 0 auto;
+	width: 100%;
+	min-width: 350px;
+	max-width: 900px;
+	height: 60px;
+	}
+.row{
+	width: 100%;
+	min-width: 50px;
+	height: 60px;
+	display: flex;
+	flex-wrap: nowrap;
+	}
+#iconos_11{
+	width: 100%;
+	min-width: 20px;
+	height: 60px;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	display: flex;
+	}
+li.hamburguesa{
+	list-style: none;
+	background:url(../IMAGENES/HOME/iconos_HOME-06.png) no-repeat;
+	width:52px;
+	height:52px;
+	margin-right: 5px;
+}
+.buscador{
+	width:75px;
+	height:52px;
+}
+
+#iconos_22{
+	width: 100%;
+	min-width: 20px;
+	height: 60px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	}
+
+li.ic_conocimiento{
+	list-style: none;
+	background:url(../IMAGENES/HOME/iconos_HOME-04.png) no-repeat;
+	height:52px;
+	width: 52px;
+}
+li.ic_normateca{
+	list-style: none;
+	background:url(../IMAGENES/HOME/iconos_HOME-03.png) no-repeat;
+	height:52px;
+	width: 52px;
+	margin-left: 5px;
+}
+li.ic_SIRE{
+	list-style: none;
+	background:url(../IMAGENES/HOME/iconos_HOME-05.png) no-repeat;
+	height:52px;
+	width: 52px;
+	margin-left: 5px;
+}
+
+/*------------------------------------------ENCABEZADO--------------------------------------------*/
+
+#encabezado{
+	margin:0 auto;
+	width:100%;
+	max-width: 1440px;
+	min-width: 300px;
+	justify-content: center;
+	}
+#encabezado_11{
+	width: 100%;
+	}
+
+/*------------------------------------------MENÚ--------------------------------------------*/
+
+#menu{
+	margin:0 auto;
+	width: 90%;
+	max-width: 530px;
+	min-width: 50px;
+	height: 60px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	}
+.inicio{
+	list-style: none;
+	background:url(../IMAGENES/HOME/menu_HOME-01.png) no-repeat;
+	width: 100%;
+	max-width:68px;
+	min-width: 20px;
+	height: 22px;
+}
+.inicio:hover{
+	list-style: none;
+	background:url(../IMAGENES/HOME/menu_HOME-05.png) no-repeat;
+	width: 100%;
+	max-width:68px;
+	min-width: 20px;
+	height: 22px;
+
+}
+.comunicacion{
+	list-style: none;
+	background:url(../IMAGENES/HOME/menu_HOME-02.png) no-repeat;
+	width: 100%;
+	max-width:162px;
+	min-width: 60px;
+	height: 22px;
+
+}
+.comunicacion:hover{
+	list-style: none;
+	background:url(../IMAGENES/HOME/menu_HOME-06.png) no-repeat;
+	width: 100%;
+	max-width:162px;
+	min-width: 60px;
+	height: 22px;
+
+}
+.conocimiento{
+	list-style: none;
+	background:url(../IMAGENES/HOME/menu_HOME-03.png) no-repeat;
+	width: 100%;
+	max-width:160px;
+	min-width: 60px;
+	height: 22px;
+
+}
+.conocimiento:hover{
+	list-style: none;
+	background:url(../IMAGENES/HOME/menu_HOME-07.png) no-repeat;
+	width: 100%;
+	max-width:160px;
+	min-width: 60px;
+	height: 22px;
+
+}
+.normateca{
+	list-style: none;
+	background:url(../IMAGENES/HOME/menu_HOME-04.png) no-repeat;
+	width: 100%;
+	max-width:131px;
+	min-width: 50px;
+	height: 22px;
+
+}
+.normateca:hover{
+	list-style: none;
+	background:url(../IMAGENES/HOME/menu_HOME-08.png) no-repeat;
+	width: 100%;
+	max-width:131px;
+	min-width: 50px;
+	height: 22px;
+
+}
+
+/*------------------------------------------TITULO NORMATECA------------------------------------------*/
+
+#titulo_normateca{
+	margin:0 auto;
+	width: 100%;
+	max-width: 800px;
+	min-width: 150px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+#nor_titulo{
+	width:90%;
+}
+.explicacion_normateca{
+	width:90%;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+
+/*------------------------------------------NORMATECA------------------------------------------*/
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	font-size: 18px;
+	color: #B38D5C;
+}
+#A_medica{
+	margin:0 auto;
+	width: 100%;
+	max-width: 800px;
+	min-width: 150px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+#normas_med{
+	width: 90%;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	text-justify: inter-word;
+	text-decoration: none;
+}
+#A_administrativa{
+	margin:0 auto;
+	width: 100%;
+	max-width: 800px;
+	min-width: 150px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+#normas_adm{
+	width: 90%;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	text-justify: inter-word;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*------------------------------------------PIE DE PÁGINA------------------------------------------*/
+
+#pie{
+	width:100%;
+	max-width: 1440px;
+	min-width: 250px;
+	height: 85px;
+	background-color: #E6E6E6;
+	display: flex;
+	flex-wrap: nowrap;
+	margin:0 auto;
+	justify-content:center;
+	align-items: center;
+	}
+
+li.logo_IMSS{
+	list-style: none;
+	background:url(../IMAGENES/HOME/logo-12.png) no-repeat;
+	width:55px;
+	height:62px;
+	margin: 0px 7px 0px 7px;
+}
+
+li.logo_ORGULLOSAMENTE{
+	list-style: none;
+	background:url(../IMAGENES/HOME/logo-13.png) no-repeat;
+	width:62px;
+	height:62px;
+	margin: 0px 7px 0px 7px;
+}
+
+li.logo_MC{
+	list-style: none;
+	background:url(../IMAGENES/HOME/logo-14.png) no-repeat;
+	width:62px;
+	height:62px;
+	margin: 0px 7px 0px 7px;
+}
+p.nombre{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 16px;
+	color: #434041;
+	margin: 0px 7px 0px 7px;
+}
+
+li.redes{
+	list-style: none;
+	background:url(../IMAGENES/HOME/logo-15.png) no-repeat;
+	width:82px;
+	height:62px;
+	margin: 0px 7px 0px 7px;
+}
+
+
+
+
